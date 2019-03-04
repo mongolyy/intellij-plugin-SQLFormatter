@@ -23,6 +23,7 @@
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceInterface="SQLFormatterConfig" serviceImplementation="SQLFormatterConfig"/>
     <toolWindow id="SQL Formatter" anchor="right" factoryClass="SQLFormatterToolWindow" />
   </extensions>
 
